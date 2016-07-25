@@ -1,6 +1,6 @@
 'use strict';
 var colorConvert = require('color-convert');
-var colorCodes = require('./styles/crayon.json');
+var colorCodes = require('./styles/crayon.js');
 
 function wrapAnsi16(fn, offset) {
 	return function () {
